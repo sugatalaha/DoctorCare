@@ -11,7 +11,7 @@ const PORT = process.env.PORT ;
 // Middleware
 app.use(cors(
     {
-        origin:'*'
+        origin:'https://doctorcare-website.onrender.com'
     }
 ));
 app.use(express.json());
