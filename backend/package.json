@@ -11,6 +11,7 @@
   "author": "Sugata Laha",
   "license": "ISC",
   "dependencies": {
+    "assignmentwebdev": "file:..",
     "cors": "^2.8.5",
     "dotenv": "^16.5.0",
     "express": "^5.1.0",
