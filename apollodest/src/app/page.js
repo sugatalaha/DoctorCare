@@ -81,11 +81,9 @@ export default function Home() {
       <meta property="og:description" content="DoctorCare helps you manage, add, and find doctors easily with modern tools." />
       <meta property="og:type" content="website" />
       <meta property="og:url" content="https://yourwebsite.com" />
-      <meta property="og:image" content="https://yourwebsite.com/preview-image.png" />
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:title" content="DoctorCare | Manage Doctors" />
       <meta name="twitter:description" content="Find top doctors, manage appointments, and consult easily with DoctorCare." />
-      <meta name="twitter:image" content="https://yourwebsite.com/preview-image.png" />
       <link rel="canonical" href="https://yourwebsite.com/" />
     </Head>
       {/* Navigation Header */}
