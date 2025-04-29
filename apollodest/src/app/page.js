@@ -80,11 +80,11 @@ export default function Home() {
       <meta property="og:title" content="DoctorCare | Manage Doctors Online" />
       <meta property="og:description" content="DoctorCare helps you manage, add, and find doctors easily with modern tools." />
       <meta property="og:type" content="website" />
-      <meta property="og:url" content="https://yourwebsite.com" />
+      <meta property="og:url" content="https://doctorcare-website.onrender.com" />
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:title" content="DoctorCare | Manage Doctors" />
       <meta name="twitter:description" content="Find top doctors, manage appointments, and consult easily with DoctorCare." />
-      <link rel="canonical" href="https://yourwebsite.com/" />
+      <link rel="canonical" href="https://doctorcare-website.onrender.com" />
     </Head>
       {/* Navigation Header */}
       <nav className="bg-blue-600 p-4 text-white flex justify-between items-center">
