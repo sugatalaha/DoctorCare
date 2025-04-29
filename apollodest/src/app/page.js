@@ -30,7 +30,7 @@ export default function Home() {
     try {
       setLoading(true);
       const query = new URLSearchParams(filters).toString();
-      const res = await fetch(`http://localhost:5000/api/list-doctor-with-filter?${query}`);
+      const res = await fetch(`https://doctorcare-phce.onrender.com/api/list-doctor-with-filter?${query}`);
       const data = await res.json();
       setDoctors(data.doctors || []);
     } catch (error) {
@@ -43,7 +43,7 @@ export default function Home() {
   const handleAddDoctor = async (e) => {
     e.preventDefault();
     try {
-      const res = await fetch(`http://localhost:5000/api/add-doctor`, {
+      const res = await fetch(`https://doctorcare-phce.onrender.com/api/add-doctor`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
